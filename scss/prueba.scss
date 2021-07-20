@@ -4,6 +4,21 @@
         margin: 0;
         padding: 0;
     }
+
+    
+
+    $flexDirection:row-reverse;
+    $backgroundImage:linear-gradient(to left,black,rgb(243, 208, 213));
+    
+     
+    @mixin bloque{
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;  
+    }
+    
+
     
     
     
@@ -144,6 +159,8 @@
         }
     
     }
+
+    
     
     .footer{
     
@@ -181,34 +198,67 @@
     .bloque{
         
         .bloque__img1{
-            width: 100%;
-            display: flex;
-            flex-direction:row;
-            justify-content: space-evenly;
+            @include bloque();
+            background-image: linear-gradient(to right,black,rgb(243, 208, 213));
+            flex-direction:$flexDirection;
     
         }
     
         .bloque__img2{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
+            @include bloque();
+            background-image: $backgroundImage;
     
         }
     
         .bloque__img3{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
+            @include bloque();
+            flex-direction:$flexDirection;
+            background-image: linear-gradient(to right,black,rgb(243, 208, 213));
     
         }
     
         .bloque__img4{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
+            @include bloque();
+            background-image: $backgroundImage;
+    
+        }
+
+        .bloque__img5{
+            @include bloque();
+            flex-direction:$flexDirection;
+            background-image: linear-gradient(to right,black,rgb(243, 208, 213));
+    
+        }
+
+        .bloque__img6{
+            @include bloque();
+            background-image: $backgroundImage;
+    
+        }
+
+        .bloque__img7{
+            @include bloque();
+            flex-direction:$flexDirection;
+            background-image: linear-gradient(to right,black,rgb(243, 208, 213));
+    
+        }
+
+        .bloque__img8{
+            @include bloque();
+            background-image: $backgroundImage;
+    
+        }
+
+        .bloque__img9{
+            @include bloque();
+            flex-direction:$flexDirection;
+            background-image: linear-gradient(to right,black,rgb(243, 208, 213));
+    
+        }
+
+        .bloque__img10{
+            @include bloque();
+            background-image: $backgroundImage;
     
         }
     
@@ -295,6 +345,21 @@
         margin: 0;
         padding: 0;
     }
+
+    
+
+    $flexDirection:row-reverse;
+    $backgroundImage:linear-gradient(to left,black,rgb(243, 208, 213));
+    
+     
+    @mixin bloque{
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;  
+    }
+    
+
     
     
     
@@ -434,6 +499,8 @@
         }
     
     }
+
+    
     
     .footer{
     
@@ -466,39 +533,72 @@
     
         }
     
-    }  
+    }
     
     .bloque{
         
         .bloque__img1{
-            width: 100%;
-            display: flex;
-            flex-direction:row;
-            justify-content: space-evenly;
+            @include bloque();
+            background-image: linear-gradient(to right,black,rgb(243, 208, 213));
+            flex-direction:$flexDirection;
     
         }
     
         .bloque__img2{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
+            @include bloque();
+            background-image: $backgroundImage;
     
         }
     
         .bloque__img3{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
+            @include bloque();
+            flex-direction:$flexDirection;
+            background-image: linear-gradient(to right,black,rgb(243, 208, 213));
     
         }
     
         .bloque__img4{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
+            @include bloque();
+            background-image: $backgroundImage;
+    
+        }
+
+        .bloque__img5{
+            @include bloque();
+            flex-direction:$flexDirection;
+            background-image: linear-gradient(to right,black,rgb(243, 208, 213));
+    
+        }
+
+        .bloque__img6{
+            @include bloque();
+            background-image: $backgroundImage;
+    
+        }
+
+        .bloque__img7{
+            @include bloque();
+            flex-direction:$flexDirection;
+            background-image: linear-gradient(to right,black,rgb(243, 208, 213));
+    
+        }
+
+        .bloque__img8{
+            @include bloque();
+            background-image: $backgroundImage;
+    
+        }
+
+        .bloque__img9{
+            @include bloque();
+            flex-direction:$flexDirection;
+            background-image: linear-gradient(to right,black,rgb(243, 208, 213));
+    
+        }
+
+        .bloque__img10{
+            @include bloque();
+            background-image: $backgroundImage;
     
         }
     
@@ -586,43 +686,7 @@
         padding: 0;
     }
 
-    $bannerFontsize:30px;
-    $colorLetra:rgb(221, 70, 70);
     
-
-
-    @mixin banner{
-        background-color: black;
-        width: 100%;
-        position:relative;
-        color: rgb(245, 209, 90);
-        .banner__content{
-            position: absolute;
-            top:300px;
-            right: 100px;
-            width: 100%;
-        }
-        img{
-            display: flex;
-            padding-left: 320px;
-            
-            
-            width: 60%;
-        }
-        span{
-            font-size: $bannerFontsize;
-            font-family: Verdana, Geneva, Tahoma, sans-serif; 
-            display:block;
-            text-transform: uppercase;
-            font-weight: bolder;
-        }
-    
-        span.title{
-            font-weight: normal;
-            margin-bottom: 30px;
-            text-align: center;  
-        }
-    }
 
     $flexDirection:row-reverse;
     $backgroundImage:linear-gradient(to left,black,rgb(243, 208, 213));
@@ -663,6 +727,7 @@
             
             position: sticky;
             top: 0;
+            display: flex;
             
     
         .nav__lista{
@@ -777,17 +842,7 @@
     
     }
 
-    .banner1{
-            @include banner();
-            text-align:center;
-            color:$colorLetra;
-    }
-
-    .banner2{
-           @include banner();
-           text-transform:uppercase;
-           text-align: center;
-    }
+    
     
     .footer{
     
@@ -958,7 +1013,7 @@
         }
             
      body{
-        background-color: rgb(204, 199, 197);
+        background-color: rgb(241, 210, 199);
         
       } 
     

@@ -104,22 +104,67 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, black, #f3d0d5);
+    flex-direction: row-reverse; }
   .bloque .bloque__img2 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, black, #f3d0d5); }
   .bloque .bloque__img3 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(to right, black, #f3d0d5); }
   .bloque .bloque__img4 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, black, #f3d0d5); }
+  .bloque .bloque__img5 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(to right, black, #f3d0d5); }
+  .bloque .bloque__img6 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, black, #f3d0d5); }
+  .bloque .bloque__img7 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(to right, black, #f3d0d5); }
+  .bloque .bloque__img8 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, black, #f3d0d5); }
+  .bloque .bloque__img9 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(to right, black, #f3d0d5); }
+  .bloque .bloque__img10 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, black, #f3d0d5); }
   .bloque__contacto {
     display: flex;
     flex-direction: row;
@@ -271,22 +316,67 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, black, #f3d0d5);
+    flex-direction: row-reverse; }
   .bloque .bloque__img2 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, black, #f3d0d5); }
   .bloque .bloque__img3 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(to right, black, #f3d0d5); }
   .bloque .bloque__img4 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, black, #f3d0d5); }
+  .bloque .bloque__img5 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(to right, black, #f3d0d5); }
+  .bloque .bloque__img6 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, black, #f3d0d5); }
+  .bloque .bloque__img7 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(to right, black, #f3d0d5); }
+  .bloque .bloque__img8 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, black, #f3d0d5); }
+  .bloque .bloque__img9 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(to right, black, #f3d0d5); }
+  .bloque .bloque__img10 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, black, #f3d0d5); }
   .bloque__contacto {
     display: flex;
     flex-direction: row;
@@ -347,7 +437,8 @@
     background-image: linear-gradient(#474545, pink); }
   .nav {
     position: sticky;
-    top: 0; }
+    top: 0;
+    display: flex; }
     .nav .nav__lista {
       width: 100%;
       height: 50px;
@@ -415,58 +506,6 @@
     font-size: 50px;
     letter-spacing: 3px;
     font-weight: bolder; }
-  .banner1 {
-    background-color: black;
-    width: 100%;
-    position: relative;
-    color: #f5d15a;
-    text-align: center;
-    color: #dd4646; }
-    .banner1 .banner__content {
-      position: absolute;
-      top: 300px;
-      right: 100px;
-      width: 100%; }
-    .banner1 img {
-      display: flex;
-      padding-left: 320px;
-      width: 60%; }
-    .banner1 span {
-      font-size: 30px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      display: block;
-      text-transform: uppercase;
-      font-weight: bolder; }
-    .banner1 span.title {
-      font-weight: normal;
-      margin-bottom: 30px;
-      text-align: center; }
-  .banner2 {
-    background-color: black;
-    width: 100%;
-    position: relative;
-    color: #f5d15a;
-    text-transform: uppercase;
-    text-align: center; }
-    .banner2 .banner__content {
-      position: absolute;
-      top: 300px;
-      right: 100px;
-      width: 100%; }
-    .banner2 img {
-      display: flex;
-      padding-left: 320px;
-      width: 60%; }
-    .banner2 span {
-      font-size: 30px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      display: block;
-      text-transform: uppercase;
-      font-weight: bolder; }
-    .banner2 span.title {
-      font-weight: normal;
-      margin-bottom: 30px;
-      text-align: center; }
   .footer .footer__lista {
     display: flex;
     flex-direction: row;
@@ -593,4 +632,4 @@
   a {
     text-decoration: none; }
   body {
-    background-color: #ccc7c5; } }
+    background-color: #f1d2c7; } }
